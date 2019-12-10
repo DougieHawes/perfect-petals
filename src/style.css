@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Poiret One', cursive;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 42px;
+}
+.full-page {
+  min-height: 100vh;
+}
+.full-page-title {
+  position: relative;
+  top: 80px;
+}

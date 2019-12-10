@@ -1,0 +1,23 @@
+.contact {
+  background: hotpink;
+}
+.contact i {
+  cursor: pointer;
+  font-size: 60px;
+  padding: 14px;
+  transition: 0.7s color ease-in-out;
+}
+.contact i:hover {
+  color: goldenrod;
+}
+.contact-box {
+  margin: 0 auto;
+  padding: 140px 0 70px 0;
+  width: 320px;
+}
+.contact-title {
+  color: #666;
+  font-family: "Poiret One", cursive;
+  font-size: 42px;
+  font-weight: bold;
+}

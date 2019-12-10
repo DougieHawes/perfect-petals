@@ -1,0 +1,46 @@
+.about {
+    background: url('../../media/layout/about-background-wide.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+
+    .full-page-title {
+        color: #4f97a3;
+    }
+}
+
+.about-box {
+    padding: 140px 0;
+}
+
+.about-image {
+    height: auto;
+    width: 600px;
+}
+
+.about-paragraph {
+    background: rgba(0, 0, 0, .42);
+    border-radius: 21px;
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    margin: -120px auto 0 auto;
+    padding: 14px;
+    width: 800px;
+}
+
+@media only screen and (max-width: 780px) {
+    .about {
+        background: url('../../media/layout/about-background.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100vh;
+    }
+
+    .about-image {
+        height: auto;
+        width: 320px;
+    }
+
+    .about-paragraph {
+        font-size: 21px;
+        width: 320px;
+    }
+}

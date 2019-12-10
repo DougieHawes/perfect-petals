@@ -1,0 +1,53 @@
+.landing {
+    background: url('../../media/layout/background-wide.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    max-height: 100vh;
+}
+
+.landing-title {
+    position: relative;
+    top: 210px;
+
+    h1 {
+        font-size: 140px;
+    }
+
+    p {
+        font-size: 42px;
+    }
+
+    i {
+        cursor: pointer;
+        font-size: 60px;
+        margin-top: 140px;
+
+        transition: .7s margin-top ease-in-out, .7s color ease-in-out;
+    }
+
+    i:hover {
+        color: #4f97a3;
+        margin-top: 160px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .landing-title {
+        h1 {
+            font-size: 90px;
+        }
+
+        p {
+            font-size: 21px;
+        }
+
+        i {
+            font-size: 35px;
+            margin-top: 40px;
+        }
+
+        i:hover {
+            margin-top: 60px;
+        }
+    }
+}
